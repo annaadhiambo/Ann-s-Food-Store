@@ -1,3 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 nav{
-    background-color: aqua;
+    background-color:white;
+    height: 50px;
+}
+nav ul{
+    list-style: none;
+    
+
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    float: right;
+    padding: 20px;
+}
+
+#welcome{
+    background: url(../images/About.jpg) center/cover no-repeat;
+    height: 50vh;
+    
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.secondimage{
+    background: url(../images/lily-banse--YHSwy6uqvk-unsplash.jpg) center/cover no-repeat;
+    height: 50vh;
+}
+.container{
+    text-align: center;
+    padding-top: 20px;
+}
+#secondimage{
+    background: url(../images/);
+}
+h2{
+    text-align: center;
+}
+#service{
+    display: flex;
+    justify-content: space-around;
+}
+#food{
+    height: 400px;
+    width: 400px;
+}
+#outside{
+    height: 400px;
+    width: 400px;
+}
+#bakery{
+    height: 400px;
+    width: 400px;
+}
+#browse{
+    display: flex;
+    justify-content: space-around;
+
+}
+#traditional{
+    height: 200px;
+    width: 500px;
+
+}
+#modern{
+    height: 200px;
+    width: 500px;
+}
+#clients{
+    display: flex;
+    justify-content: space-around;
+}
+#img1{
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+}
+#img2{
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+}
+#img3{
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+}
+h3{
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.facebook>img{
+    height: 40px;
+    width: 50px;
+}
+.insta>img{
+    height: 40px;
+    width: 50px;
+}
+.twit>img{
+    height: 40px;
+    width: 50px;
+}
+footer>p{
+    text-align: center;
 }
